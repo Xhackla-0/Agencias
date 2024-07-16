@@ -1,0 +1,38 @@
+import React from 'react';
+import './NavBar.css';
+import Barra from '../components/barra';
+
+
+const NavBar = () => {
+  return (
+    <div className='logo'>
+      <h3>Menu</h3>      
+      
+      <nav className='nav'>
+        <ul className="menu">
+          <li><a href="#">Home</a></li>
+          <li>    
+          <div className='subnav'>
+            <a href="#" className='subnavbtn'>Servicios</a>
+            <ul className="subnav-content">
+              <li><a href="#">Paquete 2.1</a></li>
+              <li><a href="#">Paquete 2.2</a></li>
+              <li><a href="#">Paquete 2.3</a></li>                        
+              <li><a href="#">Paquete 2.4</a></li>
+              <li><a href="#">Paquete 2.5</a></li>
+              <li><a href="#">Paquete 2.6</a></li>                        
+            </ul>
+          </div>
+          </li>    
+          <li><a href="#">About US</a></li>
+          <li><a href="#">Contact</a></li>
+        
+       </ul>
+      </nav>
+      
+      <Barra />
+    </div>
+  );
+}
+
+export default NavBar;

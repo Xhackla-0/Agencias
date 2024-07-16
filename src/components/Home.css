@@ -1,0 +1,25 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 2rem;    
+}
+
+.texto {
+    width: 60%;
+    text-align: left;
+    margin-bottom: 5vh; 
+    padding: 0 20px ;
+    border: 1px solid black;
+}
+.texto h2{
+    text-align: center;
+}
+
+.gif {
+    width: 100%;
+    text-align: center;
+    object-fit: contain;
+    height: auto;
+}

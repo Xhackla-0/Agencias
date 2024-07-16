@@ -1,0 +1,65 @@
+.logo{
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 0 1rem;
+}
+
+.menu-icon {    
+    width: auto;
+    /*display: none;*/
+}
+
+/*******************/
+
+a{
+    text-decoration: none;
+}
+il{
+    list-style: noe;
+}
+.subnav-content {
+    width: 100%;
+    display: none;
+    padding: 10px 0;
+    z-index: 
+}
+.subnav-content a{
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+    
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+    background: white;
+}
+
+    
+/******************/
+
+@media screen and (max-width:650px){
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+    .meni li{
+        float: left;        
+    }
+    .menu a:hover {
+        background-color: transparent;
+        color: green;
+    }
+    .hamb {
+        display: none;
+    }
+}
